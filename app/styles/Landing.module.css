@@ -75,15 +75,17 @@
   margin-bottom: 40px;
 }
 .imageContainer {
+  position: relative;
   flex: 1;
-  max-width: 40%;
+  max-width: 80%;
   height: auto;
   background-color: transparent;
 }
 .image {
-  width: 100%;
+  width: 80%;
+  height: auto;
   border-radius: 10px;
-  background-color: aqua;
+  background-color: transparent;
 }
 .textContainer {
   flex: 1;

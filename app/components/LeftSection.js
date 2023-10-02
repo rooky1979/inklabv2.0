@@ -9,8 +9,9 @@ const LeftSection = ({ imageUrl, title, subtitle }) => {
         <Image src={imageUrl} 
         alt="Steve Kretz" 
         className={styles.image}
-        width={300}
-        height={330} />
+        width={150}
+        height={250}
+        /* objectFit='cover' *//>
       </div>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>{title}</h1>
