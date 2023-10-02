@@ -1,27 +1,25 @@
-// pages/index.js
 import React from 'react';
 import LeftSection from '../components/LeftSection';
+import Logo from './Logo';
+import styles from "../styles/Landing.module.css";
 
 const LandingPage = () => {
   return (
-    <div className="landing-page">
-      {/* Your header section with a logo, social icons, and enter button */}
-      {/* You can reuse your existing code here */}
-      
-      {/* Scrollable sections */}
-      <section className="section">
+    <div className={styles.landingpage}>
+      <Logo/>
+      <section className={styles.section}>
         {/* Section 1 - Bio */}
         <LeftSection
-          imageUrl="next.svg"
-          title="Your Title"
-          subtitle="Your Subtitle"
+          imageUrl="/steve6.jpg"
+          title="Bio"
+          subtitle="My journey and how I got here"
         />
       </section>
 
-      <section className="section">
+      {/* <section className="section"> */}
         {/* Section 2 - Portfolio */}
         {/* Add your portfolio content here */}
-      </section>
+      {/* </section> */}
 
       {/* Repeat the above pattern for other sections (available art, blog, etc.) */}
     </div>
