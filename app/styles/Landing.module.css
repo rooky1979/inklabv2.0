@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Anton&family=Antonio&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.leftSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  }
+.imageContainer {
+    flex: 1;
+    max-width: 40%;
+  }
+.image {
+    width: 100%;
+    border-radius: 10px;
+    background-color: aqua;
+  }
+.textContainer {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+.title {
+    font-family: "Anton";
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+.subtitle {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #777;
+  }
+ /* Mobile responsiveness */
+@media (max-width: 768px) {
+    .leftSection {
+      flex-direction: column;
+    }
+  
+    .imageContainer {
+      max-width: 80%; /* Adjust image size for mobile */
+    }
+  
+    .textContainer {
+      padding: 10px; /* Adjust padding for mobile */
+      text-align: center;
+    }
+  }
+  
