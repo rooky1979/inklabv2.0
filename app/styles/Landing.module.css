@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Anton&family=Antonio&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Anton&family=Antonio&display=swap");
 
 .logocontainer {
-/*   display: flexbox;
+  /*   display: flexbox;
   justify-content: flex-start;
   position: relative;
   padding-top: 60px;
@@ -68,82 +68,82 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .leftSection {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 40px;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
 .imageContainer {
-    flex: 1;
-    max-width: 40%;
-    height: auto;
-    background-color: transparent;
-  }
+  flex: 1;
+  max-width: 40%;
+  height: auto;
+  background-color: transparent;
+}
 .image {
-    width: 100%;
-    border-radius: 10px;
-    background-color: aqua;
-  }
+  width: 100%;
+  border-radius: 10px;
+  background-color: aqua;
+}
 .textContainer {
-    flex: 1;
-    padding: 20px;
-    text-align: left;
-  }
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
 .title {
-    font-family: "Anton";
-    font-size: 64px;
-    margin-bottom: 10px;
-  }
+  font-family: "Anton";
+  font-size: 64px;
+  margin-bottom: 10px;
+}
 .subtitle {
-    font-family: "Roboto";
-    font-size: 48px;
-    color: #373737;
-  }
- /* Mobile responsiveness */
+  font-family: "Roboto";
+  font-size: 48px;
+  color: #373737;
+}
+/* Mobile responsiveness */
 @media (max-width: 802px) {
   .inklabheading {
     font-size: 80px;
   }
-  
+
   .kretnameheading {
     font-size: 65px;
   }
   .experienceheading {
     font-size: 35px;
   }
-    .leftSection {
-      flex-direction: column;
-    }
-  
-    .imageContainer {
-      max-width: 80%; /* Adjust image size for mobile */
-    }
-  
-    .textContainer {
-      padding: 10px; /* Adjust padding for mobile */
-      text-align: center;
-    }
+  .leftSection {
+    flex-direction: column;
   }
-  @media (max-width: 768px) {
-    .leftSection {
-      flex-direction: column;
-    }
-  
-    .imageContainer {
-      max-width: 80%; /* Adjust image size for mobile */
-    }
-  
-    .textContainer {
-      padding: 10px; /* Adjust padding for mobile */
-      text-align: center;
-    }
+
+  .imageContainer {
+    max-width: 80%; /* Adjust image size for mobile */
   }
+
+  .textContainer {
+    padding: 10px; /* Adjust padding for mobile */
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .leftSection {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    max-width: 80%; /* Adjust image size for mobile */
+  }
+
+  .textContainer {
+    padding: 10px; /* Adjust padding for mobile */
+    text-align: center;
+  }
+}
 @media (max-width: 666px) {
   .inklabheading {
     font-size: 70px;
   }
-  
+
   .kretnameheading {
     font-size: 55px;
   }
@@ -151,22 +151,22 @@
     font-size: 25px;
   }
   .icon {
-    margin-right: 23px;
+    margin-right: 13px;
     font-size: 40px;
   }
-    .leftSection {
-      flex-direction: column;
-    }
-  
-    .imageContainer {
-      max-width: 80%; /* Adjust image size for mobile */
-    }
-  
-    .textContainer {
-      padding: 10px; /* Adjust padding for mobile */
-      text-align: center;
-    }
+  .leftSection {
+    flex-direction: column;
   }
+
+  .imageContainer {
+    max-width: 80%; /* Adjust image size for mobile */
+  }
+
+  .textContainer {
+    padding: 10px; /* Adjust padding for mobile */
+    text-align: center;
+  }
+}
 @media (max-width: 531px) {
   .inklabheading {
     font-size: 60px;
@@ -178,22 +178,22 @@
     font-size: 20px;
   }
   .icon {
-    margin-right: 23px;
+    margin-right: 10px;
     font-size: 30px;
   }
-    .leftSection {
-      flex-direction: column;
-    }
-  
-    .imageContainer {
-      max-width: 80%; /* Adjust image size for mobile */
-    }
-  
-    .textContainer {
-      padding: 10px; /* Adjust padding for mobile */
-      text-align: center;
-    }
+  .leftSection {
+    flex-direction: column;
   }
+
+  .imageContainer {
+    max-width: 80%; /* Adjust image size for mobile */
+  }
+
+  .textContainer {
+    padding: 10px; /* Adjust padding for mobile */
+    text-align: center;
+  }
+}
 @media (max-width: 460px) {
   .inklabheading {
     font-size: 45px;
@@ -205,25 +205,23 @@
     font-size: 15px;
   }
   .icon {
-    margin-right: 23px;
+    margin-right: 10px;
     font-size: 25px;
   }
-    .leftSection {
-      flex-direction: column;
-    }
-  
-    .imageContainer {
-      max-width: 80%; /* Adjust image size for mobile */
-    }
-  
-    .textContainer {
-      padding: 10px; /* Adjust padding for mobile */
-      text-align: center;
-    }
+  .leftSection {
+    flex-direction: column;
   }
+  .imageContainer {
+    max-width: 80%; /* Adjust image size for mobile */
+  }
+  .textContainer {
+    padding: 10px; /* Adjust padding for mobile */
+    text-align: center;
+  }
+}
 @media (max-width: 345px) {
   .icon {
-    margin-right: 23px;
+    margin-right: 10px;
     font-size: 15px;
   }
   .inklabheading {
@@ -235,18 +233,14 @@
   .experienceheading {
     font-size: 10px;
   }
-    .leftSection {
-      flex-direction: column;
-    }
-  
-    .imageContainer {
-      max-width: 80%; /* Adjust image size for mobile */
-    }
-  
-    .textContainer {
-      padding: 10px; /* Adjust padding for mobile */
-      text-align: center;
-    }
+  .leftSection {
+    flex-direction: column;
   }
-
-  
+  .imageContainer {
+    max-width: 80%; /* Adjust image size for mobile */
+  }
+  .textContainer {
+    padding: 10px; /* Adjust padding for mobile */
+    text-align: center;
+  }
+}
